@@ -1,6 +1,8 @@
 author: David Omar
 sitename: Ginpar Quickstart
-description: Interactive Sketches
+description: This is the quickstart project for the
+        Ginpar static site generator. Modify this (and
+        other fields) in your `config.yaml` file.
 url: /
 theme: gart
 content_path: ./sketches
