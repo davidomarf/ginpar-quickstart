@@ -1,12 +1,7 @@
 author: David Omar
-sitename: Ginpar Quickstart
-description: This is the quickstart project for the
-        Ginpar static site generator. Modify this (and
-        other fields) in your `config.yaml` file.
+build_path: public
+content_path: sketches
+description: This is a Ginpar project
+sitename: My site
+theme: davidomarf/gart
 url: /
-theme: gart
-content_path: ./sketches
-build_path: ./public
-scripts:
-        tag: p5
-        url: https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js
