@@ -3,7 +3,11 @@ author: David Omar Flores Chávez
 description: >
   This is an example of how a website generated with Ginpar
   looks like. You can modify the content of this page by changing
-  the values of the <code>config.yaml</code> file.
+  the values of the <code>config.yaml</code> file. <br><br>
+
+  To get this project running on your machine, install 
+  <a href="https://github.com/davidomarf/ginpar">Ginpar</a> and run
+  <code>ginpar quickstart</code>.
 
 theme: davidomarf/gart
 
