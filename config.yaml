@@ -1,7 +1,16 @@
-author: David Omar
+sitename: Ginpar Quickstart
+author: David Omar Flores Chávez
+description: >
+  This is an example of how a website generated with Ginpar
+  looks like. You can modify the content of this page by changing
+  the values of the <code>config.yaml</code> file.
+
+theme: davidomarf/gart
+
 build_path: public
 content_path: sketches
-description: This is a Ginpar project
-sitename: My site
-theme: davidomarf/gart
 url: /
+
+scripts:
+  - tag: p5
+    url: https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js
