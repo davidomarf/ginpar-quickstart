@@ -21,7 +21,7 @@ function draw() {
     let radius = randomGaussian(Number(CIRCLE_SIZE_AVG), Number(CIRCLE_SIZE_SD))
     stroke(random(255))
     fill(random(255))
-    strokeWeight(random(5))
+    strokeWeight(random(radius/2))
     circle(random(width), random(height), radius)
 
   }
