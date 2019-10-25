@@ -7,8 +7,8 @@ description: >
   To get this project running on your machine, install 
   <a href="https://github.com/davidomarf/ginpar">Ginpar</a> and run
   <code>ginpar quickstart</code>.
-author: David Omar Flores Chávez
-author_url: https://davidomar.com
+author: <i>Your name in <code>config.yaml</code></i>
+author_url: https://github.com/davidomarf/ginpar
 
 theme: davidomarf/gart
 
