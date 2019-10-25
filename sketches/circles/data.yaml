@@ -1,0 +1,12 @@
+---
+- var: DIMENSIONS
+  attrs:
+    type: dimensions
+    value: 
+      - 800
+      - 800
+- var: NUMBER_POINTS
+  attrs:
+    type: number
+    value: 1000
+    step: 100
