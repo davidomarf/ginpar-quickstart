@@ -1,5 +1,4 @@
 sitename: Ginpar Quickstart
-author: David Omar Flores Chávez
 description: >
   This is an example of how a website generated with Ginpar
   looks like. You can modify the content of this page by changing
@@ -8,6 +7,8 @@ description: >
   To get this project running on your machine, install 
   <a href="https://github.com/davidomarf/ginpar">Ginpar</a> and run
   <code>ginpar quickstart</code>.
+author: David Omar Flores Chávez
+author_url: https://davidomar.com
 
 theme: davidomarf/gart
 
