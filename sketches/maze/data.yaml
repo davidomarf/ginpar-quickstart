@@ -1,0 +1,21 @@
+---
+- var: DIMENSIONS
+  attrs:
+    type: dimensions
+    value: 
+      - 2200
+      - 2200
+- var: MAZE_CELLS_W
+  name: Number of columns
+  attrs:
+    type: number
+    value: 40
+- var: MAZE_CELLS_H
+  name: Number of rows
+  attrs:
+    type: number
+    value: 40
+- var: STROKE_WEIGHT
+  attrs:
+    type: number
+    value: 15
