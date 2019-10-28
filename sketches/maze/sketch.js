@@ -44,7 +44,9 @@ function draw() {
       }
 
       strokeWeight(STROKE_WEIGHT * ((10 + j) / MAZE_CELLS_H))
-
+      if (random() > DRAWING_PROBABILITY){
+        continue;
+      }
       line(mazeLine[0], mazeLine[1], mazeLine[2], mazeLine[3])
     }
   }
