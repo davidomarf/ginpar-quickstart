@@ -1,25 +1,31 @@
 ---
-- var: DIMENSIONS
-  attrs:
-    type: dimensions
-    value: 
-      - 2048
-      - 2560
-- var: NUMBER_POINTS
-  attrs:
-    type: number
-    value: 3500
-    step: 100
-    min: 0
-- var: CIRCLE_SIZE_AVG
-  attrs:
-    type: number
-    value: 10
-    step: 2
-    min: 0
-- var: CIRCLE_SIZE_SD
-  attrs:
-    type: number
-    value: 15
-    step: 1
-    min: 0
+randomizable: True
+global_seed: True
+params:
+  - DIMENSIONS:
+      attrs:
+        type: dimensions
+        value: 
+          - 2048
+          - 2560
+  - NUMBER_POINTS:
+      name: Number of points
+      attrs:
+        type: number
+        value: 3500
+        step: 100
+        min: 0
+  - CIRCLE_SIZE_AVG:
+      name: Circle size (avg.)
+      attrs:
+        type: number
+        value: 10
+        step: 2
+        min: 0
+  - CIRCLE_SIZE_SD:
+      name: Circle size (sd)
+      attrs:
+        type: number
+        value: 15
+        step: 1
+        min: 0
