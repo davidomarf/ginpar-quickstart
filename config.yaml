@@ -1,12 +1,21 @@
 sitename: Ginpar Quickstart
+## We'll be adding a Markdown renderer for cases like these!
 description: >
   This is an example of how a website generated with Ginpar
   looks like. You can modify the content of this page by changing
-  the values of the <code>config.yaml</code> file. <br><br>
+  the values of the 
+  <code>
+  <a href="https://github.com/davidomarf/ginpar-quickstart/blob/master/config.yaml">config.yaml</a>
+  </code>
+  file. <br><br>
 
   To get this project running on your machine, install 
   <a href="https://github.com/davidomarf/ginpar">Ginpar</a> and run
-  <code>ginpar quickstart</code>.
+  <code>ginpar quickstart</code>.<br><br>
+
+  The source code for this webiste is available
+  <a href="https://github.com/davidomarf/ginpar-quickstart">here</a>.
+
 author: <i>Your name in <code>config.yaml</code></i>
 author_url: https://github.com/davidomarf/ginpar
 
