@@ -2,8 +2,6 @@
  * to do it, you **must** use `var` instead of `let` or `const`.
  */
 
-RANDOM_S = Math.random() * 1000000000
-
 
 /**
  * Standard function of p5js
@@ -23,7 +21,7 @@ function draw() {
   background(225);
   stroke(120)
 
-  randomSeed(RANDOM_S)
+  randomSeed(RANDOM_SEED)
 
   let CELL_SIZE = [
     (width / MAZE_CELLS_W),

@@ -1,14 +1,11 @@
-RANDOM_S = Math.random() * 1000000000;
-NOISE_S = Math.random() * 1000000000;
-
 /**
  * Standard function of p5js
  */
 function setup() {
   createCanvas(DIMENSIONS[0], DIMENSIONS[1]).parent("artwork-container");
 
-  randomSeed(RANDOM_S);
-  noiseSeed(NOISE_S);
+  randomSeed(RANDOM_SEED);
+  noiseSeed(NOISE_SEED);
   // Call draw() only once
   // noLoop();
 }

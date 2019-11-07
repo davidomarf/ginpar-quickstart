@@ -19,8 +19,6 @@
  * Don't use `let` or `const`.
  */
 
-RANDOM_S = Math.random() * 1000000000
-
 /**
  * Standard function of p5js
  */
@@ -44,7 +42,7 @@ function setup() {
 function draw() {
   // Set a background color
   background(225);
-  randomSeed(RANDOM_S)
+  randomSeed(RANDOM_SEED)
 
   /**
    * Ginpar implements a function ginpar.seed() that updates the seeds for the
